@@ -1,0 +1,11 @@
+<launch>
+  <!-- Safety Nodes -->
+  <node name="nav_safety" pkg="carl_safety" type="nav_safety" output="screen" />
+
+  <!-- Web Nodes -->
+  <node name="proxy" pkg="interactive_marker_proxy" type="proxy" output="screen">
+    <remap from="topic_ns" to="/jaco_interactive_manipulation" />
+    <remap from="target_frame" to="/base_footprint" />
+  </node>
+  <node name="tf2_web_republisher" pkg="tf2_web_republisher" type="tf2_web_republisher" output="screen" />
+</launch>
