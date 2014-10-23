@@ -1,0 +1,23 @@
+ros-indigo-carl-demos (0.0.3-0trusty) trusty; urgency=high
+
+  * carl_speed_speak added
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Thu, 23 Oct 2014 04:00:00 -0000
+
+ros-indigo-carl-demos (0.0.2-0trusty) trusty; urgency=high
+
+  * new interactive manipulation topic
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Fri, 03 Oct 2014 04:00:00 -0000
+
+ros-indigo-carl-demos (0.0.1-0trusty) trusty; urgency=high
+
+  * added build and launch files
+  * READMEs added
+  * Contributors: Russell Toris
+
+ -- Russell Toris <rctoris@wpi.edu>  Fri, 05 Sep 2014 04:00:00 -0000
+
+
