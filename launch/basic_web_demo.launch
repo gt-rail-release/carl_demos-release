@@ -3,7 +3,7 @@
   <include file="$(find carl_navigation)/launch/navigation_layered.launch" />
 
   <!-- Safety Nodes -->
-  <node name="nav_safety" pkg="carl_safety" type="nav_safety" output="screen" />
+  <include file="$(find carl_safety)/launch/carl_safety_interface.launch" />
 
   <!-- Web Nodes -->
   <node name="proxy" pkg="interactive_marker_proxy" type="proxy" output="screen">
