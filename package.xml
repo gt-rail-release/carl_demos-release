@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>carl_demos</name>
-  <version>0.0.7</version>
+  <version>0.0.8</version>
   <description>Demo Applications for CARL</description>
 
   <maintainer email="rctoris@wpi.edu">Russell Toris</maintainer>
@@ -17,14 +17,28 @@
  
   <buildtool_depend>catkin</buildtool_depend>
 
+  <build_depend>actionlib</build_depend>
+  <build_depend>actionlib_msgs</build_depend>
+  <build_depend>carl_dynamixel</build_depend>
+  <build_depend>carl_moveit</build_depend>
+  <build_depend>carl_navigation</build_depend>
   <build_depend>geometry_msgs</build_depend>
   <build_depend>libespeak-dev</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rail_manipulation_msgs</build_depend>
   <build_depend>roscpp</build_depend>
 
+  <run_depend>actionlib</run_depend>
+  <run_depend>actionlib_msgs</run_depend>
+  <run_depend>carl_dynamixel</run_depend>
+  <run_depend>carl_moveit</run_depend>
+  <run_depend>carl_navigation</run_depend>
   <run_depend>carl_safety</run_depend>
   <run_depend>geometry_msgs</run_depend>
   <run_depend>interactive_marker_proxy</run_depend>
   <run_depend>libespeak-dev</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>rail_manipulation_msgs</run_depend>
   <run_depend>rail_user_queue_manager</run_depend>
   <run_depend>roscpp</run_depend>
   <run_depend>tf2_web_republisher</run_depend>
