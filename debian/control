@@ -1,0 +1,12 @@
+Source: ros-indigo-carl-demos
+Section: misc
+Priority: extra
+Maintainer: Russell Toris <rctoris@wpi.edu>
+Build-Depends: debhelper (>= 9.0.0), libespeak-dev, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-carl-dynamixel, ros-indigo-carl-moveit, ros-indigo-carl-navigation, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-generation, ros-indigo-rail-manipulation-msgs, ros-indigo-roscpp
+Homepage: http://ros.org/wiki/carl_demos
+Standards-Version: 3.9.2
+
+Package: ros-indigo-carl-demos
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libespeak-dev, ros-indigo-actionlib, ros-indigo-actionlib-msgs, ros-indigo-carl-dynamixel, ros-indigo-carl-moveit, ros-indigo-carl-navigation, ros-indigo-carl-safety, ros-indigo-geometry-msgs, ros-indigo-interactive-marker-proxy, ros-indigo-message-runtime, ros-indigo-rail-manipulation-msgs, ros-indigo-rail-user-queue-manager, ros-indigo-roscpp, ros-indigo-tf2-web-republisher, ros-indigo-web-video-server
+Description: Demo Applications for CARL
